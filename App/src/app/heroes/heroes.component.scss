@@ -27,26 +27,4 @@ ul {
   }
 }
 
-.target-hero {
-  margin: 2rem 0;
-  vertical-align: top;
-  display: inline-block;
-  width:37%;
-  background: linear-gradient(#82B1FF, white);
-  padding: .3rem;
-  color: #0b4bfb;
-  box-shadow: 0 0 2px 2px white inset;
 
-  * {
-    margin: .5rem 0;
-  }
-
-  input {
-    border: none;
-    color: #0b4bfb;
-  }
-
-  input:focus {
-    outline: 1px solid #82B1FF;
-  }
-}
