@@ -1,0 +1,10 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    display: inline-block;
+    padding: 0 .3rem;
+  }
+}
