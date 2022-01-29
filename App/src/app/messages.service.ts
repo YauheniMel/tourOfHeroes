@@ -15,7 +15,7 @@ export class MessagesService {
   }
 
   clear(): void {
-    this.messages = ["I've got a hero"];
+    this.messages = [];
   }
 
 }

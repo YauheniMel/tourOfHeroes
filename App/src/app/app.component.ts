@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { MessagesService } from './messages.service';
 
@@ -9,4 +10,6 @@ import { MessagesService } from './messages.service';
 })
 export class AppComponent {
   title = 'App';
+
+  newName!:string;
 }
