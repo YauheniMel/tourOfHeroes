@@ -1,3 +1,13 @@
+.form {
+  padding: .8rem;
+  background-color: #FFA900;
+  border-radius: 16px;
+
+  label {
+    padding-right: .2rem;
+  }
+}
+
 ul {
   list-style: none;
   display: inline-block;
@@ -9,21 +19,28 @@ ul {
     margin: 10px 0;
     padding: 10px 20px;
     border-radius: 16px;
-    outline: 2px solid #82B1FF;
-    background-color: #2962FF;
+    background-color: #009B95;
     max-width: 200px;
     color: white;
   }
 
   li:hover {
-    background-color: #82B1FF;
-    color: #0b4bfb;
+    background-color: #5CCDC9;
+    color: #009B95;
     box-shadow: inset 0 0 2px 2px white;
     outline: none;
   }
 
-  .selected {
-    background-color: #82B1FF;
+  a {
+    display: block;
+  }
+
+  button {
+    margin-top: .3rem;
+    padding: .2rem .5rem;
+
+    border: none;
+    border-radius: 3px;
   }
 }
 

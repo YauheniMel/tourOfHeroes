@@ -1,10 +1,11 @@
 <div class="container">
-  <h1>{{ title }}</h1>
-  <nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/heroes">Heroes</a>
-  </nav>
-  <h2>{{newName}}</h2>
+  <div class="head">
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="/dashboard">Dashboard</a>
+      <a routerLink="/heroes">Heroes</a>
+    </nav>
+  </div>
   <router-outlet></router-outlet>
 </div>
 

@@ -1,12 +1,7 @@
 .target-hero {
-  margin: 2rem 0;
-  vertical-align: top;
-  display: inline-block;
-  width:37%;
-  background: linear-gradient(white, #82B1FF, white);
-  padding: .3rem;
-  color: #0b4bfb;
-  box-shadow: 0 0 2px 2px white inset;
+  padding: 2rem;
+  background-color: #009B95;
+  color: white;
 
   * {
     margin: .5rem 0;
@@ -14,10 +9,23 @@
 
   input {
     border: none;
-    color: #0b4bfb;
+    opacity: .2;
+    font-size: 1rem;
+
+    &:focus {
+      opacity: 1;
+    }
   }
 
   input:focus {
     outline: 1px solid #82B1FF;
+  }
+
+  button {
+    margin: .3rem;
+    padding: .2rem .5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
   }
 }

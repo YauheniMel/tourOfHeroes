@@ -1,0 +1,23 @@
+.search-wrap {
+  background-color: #009B95;
+
+  .form {
+    padding: .4rem;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: .3rem .5rem;
+
+    color: black;
+
+    &:hover {
+      background-color: #5CCDC9
+    }
+  }
+}
